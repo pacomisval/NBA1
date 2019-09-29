@@ -12,7 +12,7 @@
   "devDependencies": {},
   "scripts": {
     "build": ".\\scripts\\build.sh",
-	"deploy": "npm run build && .\\scripts\deploy.sh",
+	"deploy": "npm run build && .\\scripts\\deploy.sh",
 	"serve": "onchange ./src/**/* -- npm run deploy"
   },
   "repository": {
